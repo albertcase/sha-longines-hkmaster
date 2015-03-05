@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  font-size: 65%;
+  background: #082a4b;
+  color: #fff;
+}
+.graphic{ 
+  width:90%;
+  display: inline-block;
+  padding: 2em 0;
+}
+
+.graphic h1{
+  font-size: 2em;
+  text-align: center;
+  padding: 0.2em 0 0.8em 0;
+}
+.graphic img{
+  padding: 0 0 1.2em 0;
+}
+.graphic p{
+  font-size: 1.2em;
+  text-align: left;
+  padding: 0 0 1em 0;
+  line-height: 1.4em;
+}
+
+#heng{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #000 url("../images/heng.png") no-repeat center;
+    background-size: 40% auto;
+    top: 0;
+    left: 0;
+}
+
+#backtop{
+    width: 10%;
+    position: fixed;
+    right: 1em;
+    bottom:1em;
+    z-index: 9;
+    display: none;
+}
+
+.morebtn{
+  width: 100%;
+  text-align: center;
+}
+
+.morebtn img{
+  width: 35%;
+}
+
+
+
+
+
+
+.dreambox{
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+  position: absolute;
+  left: 0; 
+  top:0;
+  background: #fff;
+}
+
+.city{
+  width: 100%;
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+
+.clicklink{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -18%;
+  bottom: 3%;
+}
+
+.listinfo{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top:58%;
+  margin: 0 0 0 -14%;
+}
+
+
+.listcon{
+  width: 100%; 
+  height:100%;
+  overflow: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.listcon p{
+  float: left;
+  height: 100%;
+  position: relative;
+}
+
+
+
+
