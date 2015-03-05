@@ -60,8 +60,8 @@ $.ajax({
 function wechatShare(timestamp_val,signature_val){
   
   var SHARE_TITLE = '博主独家对话郭富城 直击顶级优雅马术赛';
-  var SHARE_LINK = 'http://longines.samesamechina.com';
-  var SHARE_IMG = 'http://longines.samesamechina.com/images/share.jpg';
+  var SHARE_LINK = 'http://longines.samesamechina.com/HKmaster';
+  var SHARE_IMG = 'http://longines.samesamechina.com/HKmaster/images/share.jpg';
   var SHARE_DESC = '博主独家对话郭富城 直击顶级优雅马术赛';
   wx.config({
       debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
