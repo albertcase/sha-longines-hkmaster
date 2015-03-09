@@ -39,6 +39,10 @@ body{
   float: left; 
   display: inline-block;
 }
+
+.graphic .table p{
+  padding:0;
+}
 .graphic p em{
   width: 80%;
   float: left; 
