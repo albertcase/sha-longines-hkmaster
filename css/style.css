@@ -30,6 +30,20 @@ body{
   text-align: left;
   padding: 0 0 1em 0;
   line-height: 1.4em;
+  width: 100%;
+  float: left;
+}
+
+.graphic p span{
+  width: 20%;
+  float: left; 
+  display: inline-block;
+}
+.graphic p em{
+  width: 75%;
+  float: left; 
+  display: inline-block;
+  font-style: normal;
 }
 
 #heng{
