@@ -50,16 +50,6 @@ body{
   font-style: normal;
 }
 
-#heng{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 999;
-    background: #000 url("../images/heng.png") no-repeat center;
-    background-size: 40% auto;
-    top: 0;
-    left: 0;
-}
 
 #backtop{
     width: 10%;
@@ -179,5 +169,40 @@ body{
   60% {opacity: 1;transform: translate(0,0);}
   100% {opacity: 0;transform: translate(-8px,0);}
 }
+
+
+
+
+
+
+/* 横屏css */
+
+#heng{
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: 999;
+background: #fffdfd url("../images/heng.png") no-repeat center;
+background-size: 70% auto;
+top: 0;
+left: 0;
+display: none;
+}
+
+
+/* 设备竖屏时调用该段css代码 */
+@media all and (orientation : portrait){
+#heng{
+display: none;
+}
+}
+/* 设备横屏时调用该段css代码 */
+@media all and (orientation : landscape){
+#heng{
+display: inline-block;
+}
+}
+
+
 
 
