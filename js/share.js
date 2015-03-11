@@ -114,10 +114,12 @@ function wechatShare(timestamp_val,signature_val){
 
 
 
-
-$(".morebtn").click(function(){
-    ga('send','event','auction', 'newsinfo' ,$(this).attr("data-num"));
+$(function(){
+    $(".morebtn").click(function(){
+        ga('send','event','auction', 'newsinfo' ,$(this).attr("data-num"));
+    })
 })
+
 
 
 
