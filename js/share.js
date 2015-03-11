@@ -115,18 +115,9 @@ function wechatShare(timestamp_val,signature_val){
 
 
 
-
-
-$(".clicklink").click(function(){
-     ga('send','event','auction', 'home' ,'点击进入');
+$(".morebtn").click(function(){
+    ga('send','event','auction', 'newsinfo' ,$(this).attr("data-num"));
 })
-
-
-$(".listinfo").click(function(){
-    ga('send','event','auction', 'newslist' ,$(this).index());
-})
-
-
 
 
 
