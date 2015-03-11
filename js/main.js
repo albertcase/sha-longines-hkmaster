@@ -117,19 +117,19 @@ function wechatShare(timestamp_val,signature_val){
 
 
 
-// $(".clicklink").click(function(){
-//      ga('send','event','auction', 'home' ,'点击进入');
-// })
+$(".clicklink").click(function(){
+     ga('send','event','auction', 'home' ,'点击进入');
+})
 
 
-// $(".listinfo").click(function(){
-//     ga('send','event','auction', 'newslist' ,$(this).index());
-// })
+$(".listinfo").click(function(){
+    ga('send','event','auction', 'newslist' ,$(this).index());
+})
 
 
-// $(".morebtn").click(function(){
-//     ga('send','event','auction', 'newsinfo' ,$(this).attr("data-num"));
-// })
+$(".morebtn").click(function(){
+    ga('send','event','auction', 'newsinfo' ,$(this).attr("data-num"));
+})
 
 
 
